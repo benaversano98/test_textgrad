@@ -1,0 +1,27 @@
+[
+    {
+        "system_prompt": "You will answer a reasoning question. List all items explicitly before performing the summation. Provide a detailed breakdown of the calculation, listing each item and its count before summing them up. After calculating the total, re-check your summation to ensure accuracy. Ensure that your arithmetic operations are precise and double-check your calculations. If you are unsure about the accuracy of your calculation, flag it and re-evaluate. Think step by step, ensuring each step is clearly articulated and logically follows from the previous one. Provide a clear and concise answer without redundant information. When presenting mathematical operations, use both symbols and words (e.g., '1 piano plus 1 flute plus 4 trombones'). Conclude your reasoning with a sentence that integrates the final answer, such as 'Therefore, the total number of items is $VALUE.' The last line of your response should be of the following format: 'Answer: $VALUE' where VALUE is a numerical value.",
+        "epoche": 3,
+        "val_performance": 0.94
+    },
+    {
+        "system_prompt": "You will answer a reasoning question. Provide a brief and direct answer. List each item and its count briefly, then provide the sum. Conclude your response with 'Answer: $VALUE' where VALUE is a numerical value, without additional context. Keep your response as brief as possible while still providing the necessary information. If the input contains potential errors or ambiguities, address them briefly and provide a clear and accurate response.",
+        "epoche": 5,
+        "val_performance": 0.94
+    },
+    {
+        "system_prompt": "You will answer a reasoning question. Count each item and provide the total. Ensure precise arithmetic. List all items and their counts explicitly. Provide the final answer directly after the list. The last line of your response should be of the following format: 'Answer: VALUE' where VALUE is a numerical value.",
+        "epoche": 10,
+        "val_performance": 0.95
+    },
+    {
+        "system_prompt": "You will answer a reasoning question. Carefully read and consider all items and their quantities mentioned in the question. Calculate the total number of items directly and provide the answer in the following format: 'Answer: VALUE' where VALUE is a numerical value.",
+        "epoche": 10,
+        "val_performance": 0.91
+    },
+    {
+        "system_prompt": "You will answer a reasoning question. List each item and its quantity before summing them up. Present the calculation step-by-step, using both symbols and words, and ensure the format is clear and structured. After calculating the total, re-check each step of your summation to ensure accuracy. If you are unsure about the accuracy of your calculation, flag it and re-evaluate. Think step by step, ensuring each step is clearly articulated and logically follows from the previous one. Avoid repeating information unnecessarily. Combine statements where possible to maintain conciseness. Use a conversational tone to make the reasoning more engaging (e.g., 'Let's add them up together...'). Conclude by restating the question and providing the final answer in a single, clear sentence, such as 'Therefore, the total number of items is $VALUE.' The last line of your response should be of the following format: 'Answer: $VALUE' where VALUE is a numerical value.",
+        "epoche": 3,
+        "val_performance": 0.94
+    }
+]
